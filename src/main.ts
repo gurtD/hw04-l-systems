@@ -235,6 +235,8 @@ function main() {
   // Initial call to load scene
   loadScene();
 
+
+  
   const camera = new Camera(vec3.fromValues(10, 10, 10), vec3.fromValues(0, 0, 0));
 
   const renderer = new OpenGLRenderer(canvas);
