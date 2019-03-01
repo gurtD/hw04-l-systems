@@ -1,4 +1,5 @@
 Garrett Darley: Gdarley
+https://gurtd.github.io/hw04-l-systems/
 
 
 For this assignment I implemented the Lsystem with 4 classes: The turtle class which is a glorified mat4 of which
@@ -24,4 +25,5 @@ transform to its respective geometry.
 The GUI simply changes the number of iterations that the expand is called and the angle parameter refers to a scalar 
 that is multiplied to the angle transformations of my drawRules, so it either increases or decreases the total angle 
 of all the possible rotation transformations. The coloring of the model is a gradient based of dot of the normal and
- a light vec, of which is also used to create a basic lambert shader.
+ a light vec, of which is also used to create a basic lambert shader. The background is just fbm with a color that 
+ changes based off time.
